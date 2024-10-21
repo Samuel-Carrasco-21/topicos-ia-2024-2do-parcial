@@ -7,6 +7,10 @@ class TripType(str, Enum):
     flight = "FLIGHT"
     bus = "BUS"
 
+class ReservationType(str, Enum):
+    TripReservation = 'TripReservation'
+    HotelReservation = 'HotelReservation'
+    RestaurantReservation = 'RestaurantReservation'
 
 class TripReservation(BaseModel):
     trip_type: TripType
@@ -14,6 +18,7 @@ class TripReservation(BaseModel):
     departure: str
     destination: str
     cost: int
+    reservation_type: ReservationType
 
 
 class HotelReservation(BaseModel):
@@ -22,6 +27,7 @@ class HotelReservation(BaseModel):
     hotel_name: str
     city: str
     cost: int
+    reservation_type: ReservationType
 
 
 class RestaurantReservation(BaseModel):
@@ -30,6 +36,7 @@ class RestaurantReservation(BaseModel):
     city: str
     dish: str
     cost: int
+    reservation_type: ReservationType
 
 
 class AgentAPIResponse(BaseModel):

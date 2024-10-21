@@ -1,34 +1,82 @@
 [
     {
-        "trip_type": "FLIGHT",
-        "date": "2023-12-05",
-        "departure": "Oruro",
-        "destination": "Cochabamba",
-        "cost": 554,
-        "reservation_type": "TripReservation"
-    },
-    {
-        "checkin_date": "2023-12-05",
-        "checkout_date": "2023-12-15",
-        "hotel_name": "El Lucero",
-        "city": "Oruro",
-        "cost": 990,
+        "checkin_date": "2023-10-01",
+        "checkout_date": "2023-10-05",
+        "hotel_name": "Hotel Miraflores",
+        "city": "Lima",
+        "cost": 391,
         "reservation_type": "HotelReservation"
     },
     {
-        "reservation_time": "2023-12-07T20:00:00",
-        "restaurant": "Gustu",
-        "city": "La Paz",
-        "dish": "not specified",
-        "cost": 29,
-        "reservation_type": "RestaurantReservation"
+        "trip_type": "FLIGHT",
+        "date": "2024-10-20",
+        "departure": "La Paz",
+        "destination": "San Francisco",
+        "cost": 521,
+        "reservation_type": "TripReservation"
+    },
+    {
+        "trip_type": "BUS",
+        "date": "2024-11-19",
+        "departure": "Santa Cruz De La Sierra",
+        "destination": "Nueva York",
+        "cost": 516,
+        "reservation_type": "TripReservation"
+    },
+    {
+        "checkin_date": "2024-10-20",
+        "checkout_date": "2024-12-20",
+        "hotel_name": "Grand Hotel",
+        "city": "Miami",
+        "cost": 803,
+        "reservation_type": "HotelReservation"
     },
     {
         "trip_type": "FLIGHT",
-        "date": "2024-01-02",
-        "departure": "Cochabamba",
-        "destination": "Dallas",
-        "cost": 401,
+        "date": "2024-10-25",
+        "departure": "La Paz",
+        "destination": "Santa Cruz",
+        "cost": 1435,
         "reservation_type": "TripReservation"
+    },
+    {
+        "trip_type": "FLIGHT",
+        "date": "2024-12-19",
+        "departure": "Santa Cruz",
+        "destination": "La Paz",
+        "cost": 1728,
+        "reservation_type": "TripReservation"
+    },
+    {
+        "reservation_time": "2024-10-23T14:00:00",
+        "restaurant": "Morty's Spaghetties",
+        "city": "Miami",
+        "dish": "Spaghetti Bolognese",
+        "cost": 68,
+        "reservation_type": "RestaurantReservation"
+    },
+    {
+        "reservation_time": "2023-10-05T14:00:00",
+        "restaurant": "Morty's Spaggeti",
+        "city": "Miami",
+        "dish": "",
+        "cost": 185,
+        "reservation_type": "RestaurantReservation"
+    },
+    {
+        "checkin_date": "2023-10-23",
+        "checkout_date": "2023-10-30",
+        "hotel_name": "Transilvania",
+        "city": "Asgard",
+        "cost": 997,
+        "reservation_type": "HotelReservation"
+    },
+    {
+        "checkin_date": "2023-10-23",
+        "checkout_date": "2023-10-30",
+        "hotel_name": "Transilvania",
+        "city": "Asgard",
+        "cost": 140,
+        "reservation_type": "HotelReservation"
     }
 ]
